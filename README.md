@@ -35,3 +35,5 @@ to the unique identifier "$token" is scaled the "factor" floating point number.
 to the unique identifier "$token" is rotated clockwise as many times as it is described by the integer parameter "X". If "X" is
 a negative number then the image is rotated 
 counterclockwise as many times as it is described by the absolute value of integer parameter "X".
+
+●  ```q```. Terminates the program. Before termination all memory that was allocated is freed.
