@@ -1,1 +1,2 @@
-# ImageProcessing
+# Image Processing
+An image processing program made in c++.
