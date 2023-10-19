@@ -1,7 +1,7 @@
 # Image Processing
 An image processing program made in C++. The following commands are supported:
 
-● i \<filename> as <$token>. Import an image file named "filename" from
+● ```i \<filename> as <$token>```. Import an image file named "filename" from
 the filesystem, which corresponds to the unique
 identifier "$token".
 
@@ -12,3 +12,5 @@ while if the image is in color it is exported in PPM format.
 
 ● d <$token>. Deletes the unique identifier "$token" from the
 memory along with the image corresponding to it.
+
+● n <$token>
