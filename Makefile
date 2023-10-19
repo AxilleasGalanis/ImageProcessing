@@ -1,8 +1,8 @@
 CC = g++
 CFLAGS = -Wall -g -fsanitize=address
-SRC = hw4.cpp
-HEADER = hw4.hpp
-EXECUTABLE = hw4
+SRC = ImageProcessing.cpp
+HEADER = ImageProcessing.hpp
+EXECUTABLE = ImageProcessing
 
 all: $(EXECUTABLE)
 
