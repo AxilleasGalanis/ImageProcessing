@@ -5,7 +5,7 @@ An image processing program made in C++. The following commands are supported:
 the filesystem, which corresponds to the unique
 identifier "$token".
 
-● ```e <$token> as /<filename>```. Export the image associated with the
+● ```e <$token> as <filename>```. Export the image associated with the
 "$token" identifier to a file clarified in the "filename" path.
 If the image is black and white it is exported in PGM format,
 while if the image is in color it is exported in PPM format.
@@ -28,10 +28,10 @@ If it is in color, then the original image is replaced by
 the corresponding black and white, which
 binds to the same "$token" id. The original color image is deleted.
 
-● ```s <$token> by \<factor>```. The image corresponding
+● ```s <$token> by <factor>```. The image corresponding
 to the unique identifier "$token" is scaled the "factor" floating point number.
 
-● ```r <$token> clockwise /<Χ> times```. The image corresponding
+● ```r <$token> clockwise <Χ> times```. The image corresponding
 to the unique identifier "$token" is rotated clockwise as many times as it is described by the integer parameter "X". If "X" is
 a negative number then the image is rotated 
 counterclockwise as many times as it is described by the absolute value of integer parameter "X".
