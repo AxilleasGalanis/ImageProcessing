@@ -16,7 +16,7 @@ memory along with the image corresponding to it.
 ● ```n <$token>```.  Reverses the brightness of the image corresponding
 to the unique identifier "$token".
 
-● ```z <$token>```. Histogram equaalization of the image corresponding
+● ```z <$token>```. Histogram equalization of the image corresponding
 to the unique identifier "$token" is performed.
 
 ● ```m <$token>```. The image corresponding
